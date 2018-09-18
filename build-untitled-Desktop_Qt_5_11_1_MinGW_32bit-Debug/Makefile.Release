@@ -165,7 +165,8 @@ release/main.o: ../untitled/main.cpp C:/Qt/5.11.1/mingw53_32/include/QtCore/QCor
 		C:/Qt/5.11.1/mingw53_32/include/QtCore/qvarlengtharray.h \
 		C:/Qt/5.11.1/mingw53_32/include/QtCore/qcontainerfwd.h \
 		C:/Qt/5.11.1/mingw53_32/include/QtCore/qobject_impl.h \
-		C:/Qt/5.11.1/mingw53_32/include/QtCore/qeventloop.h
+		C:/Qt/5.11.1/mingw53_32/include/QtCore/qeventloop.h \
+		../untitled/draw.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\main.o ..\untitled\main.cpp
 
 ####### Install
